@@ -1,0 +1,112 @@
+import React from "react";
+import { useParams, useNavigate } from "react-router-dom";
+
+const jobDetails = {
+  "marketing-intern": {
+    title: "Marketing Intern",
+    type: "Marketing",
+    date: "June 2023",
+    description: "As .",
+    images: ["/placeholder1.jpg", "/placeholder2.jpg", "/placeholder3.jpg"]
+  },
+  "camp-leader": {
+    title: "Merchandise Manager",
+    type: "Leadership",
+    date: "August 2022",
+    description: "Placeholder description for Camp Leader.",
+    images: ["/placeholder1.jpg", "/placeholder2.jpg", "/placeholder3.jpg"]
+  },
+  "telephone-outreach": {
+    title: "Telephone Outreach",
+    type: "Outreach",
+    date: "January 2024",
+    description: "Placeholder description for Telephone Outreach.",
+    images: ["/placeholder1.jpg", "/placeholder2.jpg", "/placeholder3.jpg"]
+  },
+  "vp-events": {
+    title: "VP Events",
+    type: "Events",
+    date: "May 2023",
+    description: "Placeholder description for VP Events.",
+    images: ["/placeholder1.jpg", "/placeholder2.jpg", "/placeholder3.jpg"]
+  }
+};
+
+export function JobDetail() {
+  const { jobId } = useParams();
+  const navigate = useNavigate();
+  const job = jobDetails[jobId];
+
+  if (!job) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-[60vh] bg-black" style={{ fontFamily: "Helvetica, Arial, sans-serif" }}>
+        <h2 className="text-3xl font-bold text-white mb-4">Job Not Found</h2>
+        <button onClick={() => navigate(-1)} className="mt-2 px-6 py-2 bg-white text-black rounded-xl font-semibold shadow-lg hover:scale-105 transition">Go Back</button>
+      </div>
+    );
+  }
+
+  return (
+  <div
+    className="min-h-[90vh] bg-black px-4 md:px-12 py-10 flex flex-col"
+    style={{ fontFamily: "Helvetica, Arial, sans-serif" }}
+  >
+    {/* Top navigation/back button */}
+    <button
+      onClick={() => navigate(-1)}
+      className="mb-8 px-6 py-2 bg-white text-black rounded-xl font-semibold shadow-lg hover:scale-105 transition self-start"
+    >
+      &larr; Back
+    </button>
+
+    {/* Responsive layout: text left, collage right */}
+    <div className="flex flex-col lg:flex-row gap-12 w-full max-w-7xl mx-auto">
+      {/* Job Details - left side */}
+      <div className="flex-1">
+        <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 text-left">{job.title}</h1>
+        <div className="mb-6 text-left">
+          <h2 className="text-2xl text-white mb-2">Project Type</h2>
+          <p className="text-lg text-white">{job.type}</p>
+        </div>
+        <div className="mb-6 text-left">
+          <h2 className="text-2xl text-white mb-2">Date</h2>
+          <p className="text-lg text-white">{job.date}</p>
+        </div>
+        <div className="mb-10 text-left">
+          <h2 className="text-2xl text-white mb-2">Description</h2>
+          <p className="text-lg text-white">{job.description}</p>
+        </div>
+      </div>
+
+      {/* Collage - right side, fills space, 3x bigger */}
+      <div className="flex-1 flex flex-col gap-6 justify-center items-center">
+        <div className="grid grid-cols-2 grid-rows-2 gap-6 w-full">
+          {/* Large main image */}
+          <div className="col-span-2 row-span-1 bg-white/10 border border-white/30 rounded-xl overflow-hidden h-[340px] md:h-[420px] flex items-center justify-center">
+            <img
+              src={job.images[0]}
+              alt={`Job collage 1`}
+              className="object-cover w-full h-full"
+            />
+          </div>
+          {/* Two smaller images below */}
+          <div className="col-span-1 row-span-1 bg-white/10 border border-white/30 rounded-xl overflow-hidden h-[180px] md:h-[220px] flex items-center justify-center">
+            <img
+              src={job.images[1]}
+              alt={`Job collage 2`}
+              className="object-cover w-full h-full"
+            />
+          </div>
+          <div className="col-span-1 row-span-1 bg-white/10 border border-white/30 rounded-xl overflow-hidden h-[180px] md:h-[220px] flex items-center justify-center">
+            <img
+              src={job.images[2]}
+              alt={`Job collage 3`}
+              className="object-cover w-full h-full"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+);
+}
