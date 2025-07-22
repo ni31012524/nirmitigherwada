@@ -3,30 +3,27 @@ import { useParams, useNavigate } from "react-router-dom";
 
 const jobDetails = {
   "marketing-intern": {
-    title: "Marketing Intern",
+    title: "Marketing Intern | Judy Inc",
     type: "Marketing",
     description: "As part of my role at JUDY INC, I managed the agency’s website, ensuring artist profiles were updated with high-quality visuals and recent work to showcase their talent effectively. I curated and created engaging social media content to promote both the agency and its artists, driving audience growth and increasing follower engagement. Additionally, I handled invoice editing to align with contractual terms and executed targeted email marketing campaigns to keep artists informed about industry events and opportunities. My efforts contributed to enhancing the agency’s online presence and strengthening its connections within the creative community.",
     images: ["/placeholder1.jpg", "/placeholder2.jpg", "/placeholder3.jpg"]
   },
   "camp-leader": {
-    title: "Merchandise Manager",
+    title: "Merchandise Manager | Uptown,GBC",
     type: "Leadership",
-    date: "August 2022",
-    description: "Placeholder description for Camp Leader.",
+    description: "As Merchandise Manager, I led a team of 9 and oversaw merchandising strategies for 3 key categories, leveraging sales data, profitability analysis, and customer preferences to drive decision-making. I guided buyers in sourcing products aligned with the store’s theme and implemented strategic markdowns to boost sales. Collaborating closely with marketing and visual merchandising teams, I ensured the store remained on-trend and effectively promoted new arrivals. Using Excel, I tracked inventory, analyzed profit and loss, and optimized stock levels—resulting in a 70% profit increase, 20% cost savings from supplier negotiations, and a 30% reduction in excess inventory while maintaining a 98% in-stock rate for top products..",
     images: ["/placeholder1.jpg", "/placeholder2.jpg", "/placeholder3.jpg"]
   },
   "telephone-outreach": {
-    title: "Telephone Outreach",
-    type: "Outreach",
-    date: "January 2024",
-    description: "Placeholder description for Telephone Outreach.",
+    title: "Event Marketing Coordinator | GBC Industry Networking Event",
+    type: "Events",
+    description: "Successfully organized and hosted a networking event for graduating students, driving engagement through eye-catching posters and Instagram promotions. Managed seamless guest experiences by warmly welcoming industry professionals, guiding them to their seats, and ensuring their comfort. Oversaw event logistics, including timely snack setup, distribution of branded goodie bags, and coordination of speaker schedules. Additionally, facilitated networking sessions, managed attendee registrations, and gathered post-event feedback to measure success. Demonstrated strong organizational skills, attention to detail, and ability to create professional, memorable experiences..",
     images: ["/placeholder1.jpg", "/placeholder2.jpg", "/placeholder3.jpg"]
   },
   "vp-events": {
-    title: "VP Events",
-    type: "Events",
-    date: "May 2023",
-    description: "Placeholder description for VP Events.",
+    title: "Marketing Coordinator | YourTravelBee",
+    type: "Marketing",
+    description: "Drove 40% follower growth in 30 days through strategic social media content and high-converting paid ad campaigns. Expertly negotiated vendor contracts, securing premium B2B deals to maximize profitability. Cultivated strong partnerships with luxury hotels to curate exceptional client experiences while optimizing vendor relationships for long-term business growth. Key Skills: Paid Advertising | Social Media Growth | B2B Negotiations | Vendor Management.",
     images: ["/placeholder1.jpg", "/placeholder2.jpg", "/placeholder3.jpg"]
   }
 };
