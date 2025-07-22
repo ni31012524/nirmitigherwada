@@ -47,8 +47,8 @@ export function Projects() {
           onClick={() => navigate("/project/gfinance-app")}
           title="GFinance App"
         >
-          <h3 className="text-lg md:text-2xl font-bold text-white mb-2">GFinance App</h3>
-          <p className="text-white text-sm md:text-base mb-2">AI-powered hedge fund for working class investments.</p>
+          <h3 className="text-lg md:text-2xl font-bold text-white mb-2">Product Development</h3>
+          <p className="text-white text-sm md:text-base mb-2">Led full-cycle denim product development, from tech pack creation to cost-effective sourcing and production optimization.</p>
           
         </button>
         {/* Project Card 2 */}
@@ -57,8 +57,8 @@ export function Projects() {
           onClick={() => navigate("/project/carbon-tracker")}
           title="Carbon Tracker"
         >
-          <h3 className="text-lg md:text-2xl font-bold text-white mb-2">Carbon Tracker</h3>
-          <p className="text-white text-sm md:text-base mb-2">Python tool to help reduce carbon footprints.</p>
+          <h3 className="text-lg md:text-2xl font-bold text-white mb-2">Adobe Illustrator</h3>
+          <p className="text-white text-sm md:text-base mb-2">Utilized Adobe Illustrator to design and develop detailed technical flats as part of the product development process.</p>
 
         </button>
         {/* Project Card 3 */}
@@ -67,8 +67,8 @@ export function Projects() {
           onClick={() => navigate("/project/ios-widget")}
           title="iOS Widget"
         >
-          <h3 className="text-lg md:text-2xl font-bold text-white mb-2">iOS Widget</h3>
-          <p className="text-white text-sm md:text-base mb-2">Built widget to display weather and time.</p>
+          <h3 className="text-lg md:text-2xl font-bold text-white mb-2">Visual Merchandising</h3>
+          <p className="text-white text-sm md:text-base mb-2">Developed a comprehensive store planogram—including layout, signage, lighting, and focal points—to optimize traffic flow, product visibility, and in-store experience..</p>
           
         </button>
       </section>
