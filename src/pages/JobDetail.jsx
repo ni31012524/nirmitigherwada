@@ -64,10 +64,6 @@ export function JobDetail() {
           <h2 className="text-2xl text-white mb-2">Project Type</h2>
           <p className="text-lg text-white">{job.type}</p>
         </div>
-        <div className="mb-6 text-left">
-          <h2 className="text-2xl text-white mb-2">Date</h2>
-          <p className="text-lg text-white">{job.date}</p>
-        </div>
         <div className="mb-10 text-left">
           <h2 className="text-2xl text-white mb-2">Description</h2>
           <p className="text-lg text-white">{job.description}</p>
