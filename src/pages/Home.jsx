@@ -57,7 +57,7 @@ export function Home() {
           onClick={() => navigate("/job/telephone-outreach")}
         >
           <h3 className="text-lg md:text-2xl font-bold text-white mb-2">Event Marketing Coordinator | GBC Networking Event</h3>
-          <p className="text-white text-sm md:text-base">Sales & operations leader with a proven track record of exceeding targets.</p>
+          <p className="text-white text-sm md:text-base">Coordinated & exceuted a high-impact Industry Professional Networking Event.</p>
         </button>
         {/* Card 4 */}
         <button
