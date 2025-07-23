@@ -47,11 +47,6 @@ export function ProjectDetails() {
       <div className="flex flex-col lg:flex-row gap-12 w-full max-w-7xl mx-auto">
         {/* Project Details - left side */}
         <div className="flex-1">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 text-left">{project.title}</h1>
-          <div className="mb-6 text-left">
-            <h2 className="text-2xl text-white mb-2">Project Type</h2>
-            <p className="text-lg text-white">{project.type}</p>
-          </div>
           <div className="mb-10 text-left">
             <h2 className="text-2xl text-white mb-2">Description</h2>
             <p className="text-lg text-white">{project.description}</p>
