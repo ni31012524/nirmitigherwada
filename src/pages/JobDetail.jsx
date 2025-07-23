@@ -12,7 +12,7 @@ const jobDetails = {
     title: "Merchandise Manager | Uptown,GBC",
     type: "Leadership",
     description: "As Merchandise Manager, I led a team of 9 and oversaw merchandising strategies for 3 key categories, leveraging sales data, profitability analysis, and customer preferences to drive decision-making. I guided buyers in sourcing products aligned with the store’s theme and implemented strategic markdowns to boost sales. Collaborating closely with marketing and visual merchandising teams, I ensured the store remained on-trend and effectively promoted new arrivals. Using Excel, I tracked inventory, analyzed profit and loss, and optimized stock levels—resulting in a 70% profit increase, 20% cost savings from supplier negotiations, and a 30% reduction in excess inventory while maintaining a 98% in-stock rate for top products.",
-    images: ["/placeholder1.jpg", "/placeholder2.jpg", "/placeholder3.jpg"]
+    images: ["/m1.jpg", "/m2.jpg", "/m3.jpg"]
   },
   "telephone-outreach": {
     title: "Event Marketing Coordinator | GBC Industry Networking Event",
