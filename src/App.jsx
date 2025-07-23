@@ -66,7 +66,7 @@ export default function App() {
               </a>
               {/* Resume */}
               <a
-                href="https://drive.google.com/file/d/1uTqWAcKUoD0QYnJfOub-RnefbSkN3_3h/view?usp=share_link"
+                href="https://drive.google.com/file/d/1m5dReF1BN_m-GujILJ2TnbR5HO-MMm6s/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-green-300 transition flex items-center space-x-2"
