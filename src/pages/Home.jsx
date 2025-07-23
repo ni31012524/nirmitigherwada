@@ -66,7 +66,7 @@ export function Home() {
           onClick={() => navigate("/job/vp-events")}
         >
           <h3 className="text-lg md:text-2xl font-bold text-white mb-2">Marketing Coordinator | YourTravelBee</h3>
-          <p className="text-white text-sm md:text-base">Coordinated a high-impact networking event.</p>
+          <p className="text-white text-sm md:text-base">Boosted followers by 40% in 30 days and secured premium B2B deals through strategic content, paid ads, and luxury partnerships.</p>
         </button>
       </section>
     </div>
