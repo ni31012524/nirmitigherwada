@@ -6,7 +6,7 @@ const jobDetails = {
     title: "Marketing Intern | Judy Inc",
     type: "Marketing",
     description: "As part of my role at JUDY INC, I managed the agency’s website, ensuring artist profiles were updated with high-quality visuals and recent work to showcase their talent effectively. I curated and created engaging social media content to promote both the agency and its artists, driving audience growth and increasing follower engagement. Additionally, I handled invoice editing to align with contractual terms and executed targeted email marketing campaigns to keep artists informed about industry events and opportunities. My efforts contributed to enhancing the agency’s online presence and strengthening its connections within the creative community.",
-    images: ["/Judy3.jpg", "/Judy2.jpeg", "/Judy1.png"]
+    images: ["/Judy3.png", "/Judy2.jpeg", "/Judy1.jpg"]
   },
   "camp-leader": {
     title: "Merchandise Manager | Uptown,GBC",
