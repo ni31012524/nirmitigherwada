@@ -18,7 +18,7 @@ const jobDetails = {
     title: "Event Marketing Coordinator | GBC Industry Networking Event",
     type: "Events",
     description: "Successfully organized and hosted a networking event for graduating students, driving engagement through eye-catching posters and Instagram promotions. Managed seamless guest experiences by warmly welcoming industry professionals, guiding them to their seats, and ensuring their comfort. Oversaw event logistics, including timely snack setup, distribution of branded goodie bags, and coordination of speaker schedules. Additionally, facilitated networking sessions, managed attendee registrations, and gathered post-event feedback to measure success. Demonstrated strong organizational skills, attention to detail, and ability to create professional, memorable experiences.",
-    images: ["/placeholder1.jpg", "/placeholder2.jpg", "/placeholder3.jpg"]
+    images: ["/Event1.PNG", "/Event2.PNG", "/Event.3PNG"]
   },
   "vp-events": {
     title: "Marketing Coordinator | YourTravelBee",
