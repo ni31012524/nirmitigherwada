@@ -72,32 +72,34 @@ export function JobDetail() {
 
       {/* Collage - right side, fills space, 3x bigger */}
       <div className="flex-1 flex flex-col gap-6 justify-center items-center">
-        <div className="grid grid-cols-2 grid-rows-2 gap-6 w-full">
-          {/* Large main image */}
-          <div className="col-span-2 row-span-1 bg-white/10 border border-white/30 rounded-xl overflow-hidden h-[340px] md:h-[420px] flex items-center justify-center">
-            <img
-              src={job.images[0]}
-              alt={`Job collage 1`}
-              className="object-cover w-full h-full"
-            />
-          </div>
-          {/* Two smaller images below */}
-          <div className="col-span-1 row-span-1 bg-white/10 border border-white/30 rounded-xl overflow-hidden h-[180px] md:h-[220px] flex items-center justify-center">
-            <img
-              src={job.images[1]}
-              alt={`Job collage 2`}
-              className="object-cover w-full h-full"
-            />
-          </div>
-          <div className="col-span-1 row-span-1 bg-white/10 border border-white/30 rounded-xl overflow-hidden h-[180px] md:h-[220px] flex items-center justify-center">
-            <img
-              src={job.images[2]}
-              alt={`Job collage 3`}
-              className="object-cover w-full h-full"
-            />
-          </div>
+      <div className="grid grid-cols-2 grid-rows-2 gap-6 w-full">
+        {/* Large main image */}
+        <div className="col-span-2 row-span-1 bg-white/10 border border-white/30 rounded-xl overflow-hidden h-[340px] md:h-[420px] flex items-center justify-center">
+          <img
+            src={job.images[0]}
+            alt={`Job collage 1`}
+            className="object-contain w-full h-full"
+          />
+        </div>
+        
+        {/* Two smaller images below */}
+        <div className="col-span-1 row-span-1 bg-white/10 border border-white/30 rounded-xl overflow-hidden h-[180px] md:h-[220px] flex items-center justify-center">
+          <img
+            src={job.images[1]}
+            alt={`Job collage 2`}
+            className="object-contain w-full h-full"
+          />
+        </div>
+        <div className="col-span-1 row-span-1 bg-white/10 border border-white/30 rounded-xl overflow-hidden h-[180px] md:h-[220px] flex items-center justify-center">
+          <img
+            src={job.images[2]}
+            alt={`Job collage 3`}
+            className="object-contain w-full h-full"
+          />
         </div>
       </div>
+    </div>
+
     </div>
   </div>
 );
