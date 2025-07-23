@@ -58,7 +58,7 @@ export function WorkExp() {
           onClick={() => navigate("/job/telephone-outreach")}
           title="Telephone Outreach"
         >
-          <h3 className="text-lg md:text-2xl font-bold text-white mb-2">Marketing Event Coordinator | Industry Networking Event</h3>
+          <h3 className="text-lg md:text-2xl font-bold text-white mb-2">Event Marketing Coordinator | GBC Networking Event</h3>
           <p className="text-white text-sm md:text-base">Sales & operations leader with a proven track record of exceeding targets.</p>
         </button>
         {/* Job Card 4 */}
