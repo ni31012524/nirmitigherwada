@@ -23,7 +23,7 @@ const jobDetails = {
   "vp-events": {
     title: "Marketing Coordinator | YourTravelBee",
     type: "Marketing",
-    description: "Drove 40% follower growth in 30 days through strategic social media content and high-converting paid ad campaigns. Expertly negotiated vendor contracts, securing premium B2B deals to maximize profitability. Cultivated strong partnerships with luxury hotels to curate exceptional client experiences while optimizing vendor relationships for long-term business growth. Key Skills: Paid Advertising | Social Media Growth | B2B Negotiations | Vendor Management.",
+    description: "Achieved a 40% increase in social media followers within 30 days by executing strategic content planning and high-performing paid ad campaigns. Negotiated premium B2B vendor contracts that significantly enhanced profitability, while cultivating strong partnerships with luxury hotels to deliver exceptional client experiences. Demonstrated expertise in paid advertising, social media growth, vendor management, and B2B negotiations—driving long-term value and brand impact.",
     images: ["/placeholder1.jpg", "/placeholder2.jpg", "/placeholder3.jpg"]
   }
 };
