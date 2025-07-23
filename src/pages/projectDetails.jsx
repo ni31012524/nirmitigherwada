@@ -5,12 +5,12 @@ const projectDetails = {
   "gfinance-app": {
     title: "Product Development",
     description: "Spearheaded end-to-end product development, from conceptualizing a denim jeans line to creating a detailed tech pack in Illustrator, including design specs, fabric selection, grading, and tolerances. Researched and selected cost-effective manufacturers aligned with target market pricing, optimizing fabric quality, production timelines, and shipment logistics. Developed a comprehensive Bill of Materials (BOM), Production Order Manual (POM), and style sheets while ensuring affordability in packaging and sourcing. This hands-on experience strengthened my expertise in technical design, cost-efficient production, and supply chain coordination.",
-    images: ["/pd1.jpg"]
+    images: ["/pd1.png"]
   },
   "carbon-tracker": {
     title: "Adobe Illustrator",
     description: "I created detailed fashion design sketches, technical flats, and spec sheets as part of my design projects. From concept to execution, I utilized Illustrator’s advanced tools to develop accurate tech packs, ensuring clear communication of design intent, construction details, and measurements for production..",
-    images: ["/ai1.jpg"]
+    images: ["/ai1.png"]
   },
   "ios-widget": {
     title: "Visual Merchandising",
