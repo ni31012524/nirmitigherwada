@@ -15,7 +15,7 @@ const projectDetails = {
   "ios-widget": {
     title: "Visual Merchandising",
     description: "Designed a full-scale visual merchandising planogram to optimize store layout, product placement, and customer experience from end to end. As part of the project, I developed a detailed store floor plan incorporating fixture placement, product zoning, spotlight positioning, and directional signage to guide customer flow and maximize visual appeal. I strategically allocated high-traffic areas for bestsellers, integrated seasonal themes, and ensured ADA-compliant navigation. The plan included focal displays, window layout concepts, and branded zones to elevate in-store storytelling. This project demonstrated my strong visual planning skills, attention to detail, and ability to create immersive retail environments that align with brand identity and drive conversions.",
-    images: ["/placeholder1.jpg",]
+    images: ["/VM1.jpeg",]
   }
 };
 
