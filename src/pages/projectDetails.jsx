@@ -52,10 +52,6 @@ export function ProjectDetails() {
             <h2 className="text-2xl text-white mb-2">Project Type</h2>
             <p className="text-lg text-white">{project.type}</p>
           </div>
-          <div className="mb-6 text-left">
-            <h2 className="text-2xl text-white mb-2">Date</h2>
-            <p className="text-lg text-white">{project.date}</p>
-          </div>
           <div className="mb-10 text-left">
             <h2 className="text-2xl text-white mb-2">Description</h2>
             <p className="text-lg text-white">{project.description}</p>
