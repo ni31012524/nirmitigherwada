@@ -3,24 +3,18 @@ import { useParams, useNavigate } from "react-router-dom"; // <-- Add this line
 
 const projectDetails = {
   "gfinance-app": {
-    title: "GFinance App",
-    type: "Fintech",
-    date: "March 2024",
-    description: "AI-powered hedge fund for working class investments.",
+    title: "Product Development",
+    description: "Spearheaded end-to-end product development, from conceptualizing a denim jeans line to creating a detailed tech pack in Illustrator, including design specs, fabric selection, grading, and tolerances. Researched and selected cost-effective manufacturers aligned with target market pricing, optimizing fabric quality, production timelines, and shipment logistics. Developed a comprehensive Bill of Materials (BOM), Production Order Manual (POM), and style sheets while ensuring affordability in packaging and sourcing. This hands-on experience strengthened my expertise in technical design, cost-efficient production, and supply chain coordination. .",
     images: ["/placeholder1.jpg", "/placeholder2.jpg", "/placeholder3.jpg"]
   },
   "carbon-tracker": {
-    title: "Carbon Tracker",
-    type: "Sustainability",
-    date: "July 2023",
-    description: "Python tool to help reduce carbon footprints.",
+    title: "Adobe Illustrator",
+    description: "I created detailed fashion design sketches, technical flats, and spec sheets as part of my design projects. From concept to execution, I utilized Illustrator’s advanced tools to develop accurate tech packs, ensuring clear communication of design intent, construction details, and measurements for production..",
     images: ["/placeholder1.jpg", "/placeholder2.jpg", "/placeholder3.jpg"]
   },
   "ios-widget": {
-    title: "iOS Widget",
-    type: "Mobile",
-    date: "January 2025",
-    description: "Built widget to display weather and time.",
+    title: "Visual Merchandising",
+    description: "Designed a full-scale visual merchandising planogram to optimize store layout, product placement, and customer experience from end to end. As part of the project, I developed a detailed store floor plan incorporating fixture placement, product zoning, spotlight positioning, and directional signage to guide customer flow and maximize visual appeal. I strategically allocated high-traffic areas for bestsellers, integrated seasonal themes, and ensured ADA-compliant navigation. The plan included focal displays, window layout concepts, and branded zones to elevate in-store storytelling. This project demonstrated my strong visual planning skills, attention to detail, and ability to create immersive retail environments that align with brand identity and drive conversions.",
     images: ["/placeholder1.jpg", "/placeholder2.jpg", "/placeholder3.jpg"]
   }
 };
