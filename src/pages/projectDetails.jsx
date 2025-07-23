@@ -61,10 +61,11 @@ export function ProjectDetails() {
               <img
                 src={project.images[0]}
                 alt={`Project collage 1`}
-                className="object-cover w-full h-full"
+                className="object-contain w-full h-full"
               />
             </div>
           </div>
+
         </div>
       </div>
     </div>
