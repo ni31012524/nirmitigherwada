@@ -32,6 +32,15 @@ export function Home() {
 
       {/* Job Experience Cards as clickable buttons, fully responsive */}
       <section className="relative z-30 grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-10 mt-4 md:mt-8 w-full max-w-5xl px-2 md:px-4 animate-fadeInUp">
+        {/* Card ShopThing - NEW */}
+        <button
+          className="bg-white/10 backdrop-blur-lg rounded-2xl md:rounded-3xl p-5 md:p-8 shadow-xl hover:scale-105 hover:bg-white/20 transition-all duration-300 border border-white/20 animate-floatUp cursor-pointer focus:outline-none w-full"
+          title="Marketing Coordinator"
+          onClick={() => navigate("/job/shopthing")}
+        >
+          <h3 className="text-lg md:text-2xl font-bold text-white mb-2">Marketing Coordinator | ShopThing</h3>
+          <p className="text-white text-sm md:text-base">Revenue-driven Marketing Coordinator specializing in luxury social commerce, in-app shopping experiences, and data-informed content strategies that drive measurable sales growth.</p>
+        </button>
         {/* Card 1 */}
         <button
           className="bg-white/10 backdrop-blur-lg rounded-2xl md:rounded-3xl p-5 md:p-8 shadow-xl hover:scale-105 hover:bg-white/20 transition-all duration-300 border border-white/20 animate-floatUp cursor-pointer focus:outline-none w-full"
