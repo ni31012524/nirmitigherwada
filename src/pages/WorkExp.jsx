@@ -70,6 +70,15 @@ export function WorkExp() {
           <h3 className="text-lg md:text-2xl font-bold text-white mb-2">Marketing Coordinator | YourTravelBee</h3>
           <p className="text-white text-sm md:text-base">Coordinated a high-impact networking event.</p>
         </button>
+        {/* Job Card 5 */}
+        <button
+          className="bg-white/10 backdrop-blur-lg rounded-2xl md:rounded-3xl p-5 md:p-8 shadow-xl hover:scale-105 hover:bg-white/20 transition-all duration-300 border border-white/20 animate-floatUp delay-500 cursor-pointer focus:outline-none w-full"
+          onClick={() => navigate("/job/marketing-coordinator-shopthing")}
+          title="Marketing Coordinator"
+        >
+          <h3 className="text-lg md:text-2xl font-bold text-white mb-2">Marketing Coordinator | ShopThing</h3>
+          <p className="text-white text-sm md:text-base">Manage Social Media Content and drive engagement & sales.</p>
+        </button>
       </section>
     </div>
   );

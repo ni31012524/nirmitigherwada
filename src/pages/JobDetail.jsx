@@ -25,6 +25,12 @@ const jobDetails = {
     type: "Marketing",
     description: "Achieved a 40% increase in social media followers within 30 days by executing strategic content planning and high-performing paid ad campaigns. Negotiated premium B2B vendor contracts that significantly enhanced profitability, while cultivating strong partnerships with luxury hotels to deliver exceptional client experiences. Demonstrated expertise in paid advertising, social media growth, vendor management, and B2B negotiations—driving long-term value and brand impact.",
     images: ["/Travelbee1.jpeg", "/Travelbee2.jpeg", "/Travelbee3.jpeg"]
+  },
+  "marketing-coordinator-shopthing": {
+    title: "Marketing Coordinator | ShopThing",
+    type: "Marketing",
+    description: "Manage Social Media Content and drive engagement & sales and increase reach on social media and made posts and reels go viral with 400k views which boosted sales.",
+    images: ["/Travelbee1.jpeg", "/Travelbee2.jpeg", "/Travelbee3.jpeg"]
   }
 };
 
@@ -43,64 +49,64 @@ export function JobDetail() {
   }
 
   return (
-  <div
-    className="min-h-[90vh] bg-black px-4 md:px-12 py-10 flex flex-col"
-    style={{ fontFamily: "Helvetica, Arial, sans-serif" }}
-  >
-    {/* Top navigation/back button */}
-    <button
-      onClick={() => navigate(-1)}
-      className="mb-8 px-6 py-2 bg-white text-black rounded-xl font-semibold shadow-lg hover:scale-105 transition self-start"
+    <div
+      className="min-h-[90vh] bg-black px-4 md:px-12 py-10 flex flex-col"
+      style={{ fontFamily: "Helvetica, Arial, sans-serif" }}
     >
-      &larr; Back
-    </button>
+      {/* Top navigation/back button */}
+      <button
+        onClick={() => navigate(-1)}
+        className="mb-8 px-6 py-2 bg-white text-black rounded-xl font-semibold shadow-lg hover:scale-105 transition self-start"
+      >
+        &larr; Back
+      </button>
 
-    {/* Responsive layout: text left, collage right */}
-    <div className="flex flex-col lg:flex-row gap-12 w-full max-w-7xl mx-auto">
-      {/* Job Details - left side */}
-      <div className="flex-1">
-        <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 text-left">{job.title}</h1>
-        <div className="mb-6 text-left">
-          <h2 className="text-2xl text-white mb-2">Project Type</h2>
-          <p className="text-lg text-white">{job.type}</p>
+      {/* Responsive layout: text left, collage right */}
+      <div className="flex flex-col lg:flex-row gap-12 w-full max-w-7xl mx-auto">
+        {/* Job Details - left side */}
+        <div className="flex-1">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 text-left">{job.title}</h1>
+          <div className="mb-6 text-left">
+            <h2 className="text-2xl text-white mb-2">Project Type</h2>
+            <p className="text-lg text-white">{job.type}</p>
+          </div>
+          <div className="mb-10 text-left">
+            <h2 className="text-2xl text-white mb-2">Description</h2>
+            <p className="text-lg text-white">{job.description}</p>
+          </div>
         </div>
-        <div className="mb-10 text-left">
-          <h2 className="text-2xl text-white mb-2">Description</h2>
-          <p className="text-lg text-white">{job.description}</p>
-        </div>
-      </div>
 
-      {/* Collage - right side, fills space, 3x bigger */}
-      <div className="flex-1 flex flex-col gap-6 justify-center items-center">
-      <div className="grid grid-cols-2 grid-rows-2 gap-6 w-full">
-        {/* Large main image */}
-        <div className="col-span-2 row-span-1 bg-white/10 border border-white/30 rounded-xl overflow-hidden h-[340px] md:h-[420px] flex items-center justify-center">
-          <img
-            src={job.images[0]}
-            alt={`Job collage 1`}
-            className="object-contain w-full h-full"
-          />
+        {/* Collage - right side, fills space, 3x bigger */}
+        <div className="flex-1 flex flex-col gap-6 justify-center items-center">
+          <div className="grid grid-cols-2 grid-rows-2 gap-6 w-full">
+            {/* Large main image */}
+            <div className="col-span-2 row-span-1 bg-white/10 border border-white/30 rounded-xl overflow-hidden h-[340px] md:h-[420px] flex items-center justify-center">
+              <img
+                src={job.images[0]}
+                alt={`Job collage 1`}
+                className="object-contain w-full h-full"
+              />
+            </div>
+
+            {/* Two smaller images below */}
+            <div className="col-span-1 row-span-1 bg-white/10 border border-white/30 rounded-xl overflow-hidden h-[180px] md:h-[220px] flex items-center justify-center">
+              <img
+                src={job.images[1]}
+                alt={`Job collage 2`}
+                className="object-contain w-full h-full"
+              />
+            </div>
+            <div className="col-span-1 row-span-1 bg-white/10 border border-white/30 rounded-xl overflow-hidden h-[180px] md:h-[220px] flex items-center justify-center">
+              <img
+                src={job.images[2]}
+                alt={`Job collage 3`}
+                className="object-contain w-full h-full"
+              />
+            </div>
+          </div>
         </div>
-        
-        {/* Two smaller images below */}
-        <div className="col-span-1 row-span-1 bg-white/10 border border-white/30 rounded-xl overflow-hidden h-[180px] md:h-[220px] flex items-center justify-center">
-          <img
-            src={job.images[1]}
-            alt={`Job collage 2`}
-            className="object-contain w-full h-full"
-          />
-        </div>
-        <div className="col-span-1 row-span-1 bg-white/10 border border-white/30 rounded-xl overflow-hidden h-[180px] md:h-[220px] flex items-center justify-center">
-          <img
-            src={job.images[2]}
-            alt={`Job collage 3`}
-            className="object-contain w-full h-full"
-          />
-        </div>
+
       </div>
     </div>
-
-    </div>
-  </div>
-);
+  );
 }
