@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Animations for Portfolio */
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes floatUp {
+  from { opacity: 0; transform: translateY(60px) scale(.95); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.animate-fadeInDown {
+  animation: fadeInDown 1s ease;
+}
+.animate-fadeInUp {
+  animation: fadeInUp 1.2s ease;
+}
+.animate-floatUp {
+  animation: floatUp 1.5s cubic-bezier(.22,1,.36,1) both;
+}
+
+/* --- Animated Gradient and Floating Shapes for Home Page --- */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientMove 12s ease-in-out infinite;
+}
+
+@keyframes floatSlow {
+  0% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-30px) scale(1.05); }
+  100% { transform: translateY(0) scale(1); }
+}
+.animate-floatSlow {
+  animation: floatSlow 7s ease-in-out infinite;
+}
+@keyframes floatSlow2 {
+  0% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(20px) scale(1.08); }
+  100% { transform: translateY(0) scale(1); }
+}
+.animate-floatSlow2 {
+  animation: floatSlow2 9s ease-in-out infinite;
+}
+@keyframes floatSlow3 {
+  0% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-15px) scale(0.97); }
+  100% { transform: translateY(0) scale(1); }
+}
+.animate-floatSlow3 {
+  animation: floatSlow3 11s ease-in-out infinite;
+}
+/* Extra unique floating animation for the fourth shape */
+@keyframes floatSlow4 {
+  0% { transform: translateY(0) translateX(0) scale(1); }
+  25% { transform: translateY(-20px) translateX(10px) scale(1.07); }
+  50% { transform: translateY(10px) translateX(-10px) scale(0.95); }
+  75% { transform: translateY(-10px) translateX(10px) scale(1.03); }
+  100% { transform: translateY(0) translateX(0) scale(1); }
+}
+.animate-floatSlow4 {
+  animation: floatSlow4 13s ease-in-out infinite;
+}
+
+/* --- DARK, SHARP, CONFIDENT EFFECTS --- */
+
+/* Animated, shifting gradient background (deep blue, indigo, teal, electric green) */
+.crazy-bg {
+  background: linear-gradient(270deg, #0f172a, #1e293b, #0ea5e9, #10b981, #0f172a);
+  background-size: 800% 800%;
+  animation: crazyGradient 18s ease-in-out infinite;
+}
+@keyframes crazyGradient {
+  0% {background-position:0% 50%}
+  50% {background-position:100% 50%}
+  100% {background-position:0% 50%}
+}
+
+/* Sparkle overlay effect (unchanged) */
+.sparkle {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 30;
+  background-image: url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="2" fill="white" opacity="0.7"/><circle cx="80" cy="40" r="1.5" fill="white" opacity="0.5"/><circle cx="50" cy="80" r="1.2" fill="white" opacity="0.6"/><circle cx="90" cy="70" r="1.8" fill="white" opacity="0.4"/><circle cx="30" cy="60" r="1.1" fill="white" opacity="0.5"/></svg>');
+  background-repeat: repeat;
+  mix-blend-mode: lighten;
+  opacity: 0.7;
+  animation: sparkleMove 8s linear infinite;
+}
+@keyframes sparkleMove {
+  0% {background-position: 0 0;}
+  100% {background-position: 100px 100px;}
+}
+
+/* Glowing text and shapes (blue/green) */
+.glow {
+  text-shadow: 0 0 8px #fff, 0 0 24px #0ea5e9, 0 0 48px #10b981;
+  filter: drop-shadow(0 0 16px #0ea5e9) drop-shadow(0 0 32px #10b981);
+}
