@@ -26,11 +26,11 @@ const jobDetails = {
     description: "Achieved a 40% increase in social media followers within 30 days by executing strategic content planning and high-performing paid ad campaigns. Negotiated premium B2B vendor contracts that significantly enhanced profitability, while cultivating strong partnerships with luxury hotels to deliver exceptional client experiences. Demonstrated expertise in paid advertising, social media growth, vendor management, and B2B negotiations—driving long-term value and brand impact.",
     images: ["/Travelbee1.jpeg", "/Travelbee2.jpeg", "/Travelbee3.jpeg"]
   },
-  "marketing-coordinator-shopthing": {
+  "shopthing": {
     title: "Marketing Coordinator | ShopThing",
     type: "Marketing",
-    description: "Manage Social Media Content and drive engagement & sales and increase reach on social media and made posts and reels go viral with 400k views which boosted sales.",
-    images: ["/Travelbee1.jpeg", "/Travelbee2.jpeg", "/Travelbee3.jpeg"]
+    description: "As a Marketing Coordinator at ShopThing, I drove revenue-focused social commerce initiatives for luxury brands by aligning content strategy with real-time consumer behavior. I collaborated cross-functionally with engineering and sales teams to optimize in-app shopping events and improve conversion performance. I also led and hosted high-impact seller-led events, delivering top-tier daily results and measurable revenue growth. My work directly contributed to scaling repeatable content-to-commerce playbooks and strengthening ShopThing’s live shopping ecosystem.",
+    images: ["/SP1.jpeg", "/SP2.jpeg", "/SP3.jpeg"]
   }
 };
 
